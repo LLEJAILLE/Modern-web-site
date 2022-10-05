@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modern-web-site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="icon" href="media/logo.png">
+</head>
+
+<body>
+    <section>
+        <div class="logo">
+            <h1>Logo</h1>
+        </div>
+        <nav class="navbar">
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Web</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">contact us</a></li>
+                    <li><a href="#">more</a></li>
+                </ul>
+            </div>
+            <img src="media/menu-btn.png" alt="menu burger" class="menu-burger">
+            <div class="right">
+                <button class="right">sign in</button>
+                <button class="right">sign up</button>
+            </div>
+        </nav>
+    </section>
+
+
+    <div class="layer-one">
+        <div class="l-one-text-left">
+            <h1>This is the title of the layer 1</h1>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Possimus ratione officiis magni tempora ducimus libero cumque,
+                architecto placeat vitae! Explicabo, natus exercitationem quos
+                pariatur molestiae magni suscipit expedita vero? Hic.
+            </p>
+            <div class="l-one-input">
+                <input type="text" placeholder="your email adresse">
+                <button>Get started</button>
+            </div>
+        </div>
+        <div class="l-one-img">
+            <img src="media/ai.png" alt="">
+        </div>
+    </div>
+
+
+    <div class="layer-two">
+        <div class="l-two-left">
+            <h1>here we have a title</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+        <div class="l-two-right">
+            <a href="#">Get started</a>
+        </div>
+    </div>
+
+    <div class="text-here">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Fuga debitis ullam suscipit consequatur numquam rerum officia
+            placeat, non laudantium hic amet sunt in atque maiores quis
+            voluptatum, reiciendis aliquam. Porro.
+        </p>
+    </div>
+
+    <div class="layer-three">
+        <div class="l-three-left">
+            <img src="media/possibility.png" alt="">
+        </div>
+        <div class="l-three-right">
+            <h1>Another title width some text write here</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Fuga debitis ullam suscipit consequatur numquam rerum officia
+                placeat, non laudantium hic amet sunt in atque maiores quis
+                voluptatum, reiciendis aliquam. Porro.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        const menuHamburger = document.querySelector(".menu-burger")
+        const navLinks = document.querySelector(".nav-links")
+
+        menuHamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+
+</html>
