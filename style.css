@@ -441,7 +441,7 @@ p {
         margin-left: 70px;
         margin-right: 60px;
         text-align: center;
-        margin-bottom: 400px;
+        margin-bottom: 350px;
     }
     
     .layer-one .l-one-text-left {
@@ -482,10 +482,9 @@ p {
         display: block;
         justify-content: center;
         height: 100%;
-        margin-top: 100px;
         margin-bottom: 50px;
-        margin-left: 70px;
-        margin-right: 60px;
+        margin-left: 30px;
+        margin-right: 30px;
         text-align: center;
         margin-bottom: 50px;
     }
@@ -500,6 +499,10 @@ p {
         margin-top: 20px;
         width: 100%;
         color: white;
+    }
+
+    .l-one-input button {
+        margin-top: 20px;
     }
 
     .layer-three {
@@ -608,15 +611,10 @@ p {
     }
 
     .navbar .menu-burger {
-        left: -100px;
+        left: -90px;
     }
-    .nav-links.mobile-menu {
-        margin-left: -100px;
-        margin-top: 120px;
-        transition: 0.5s ease-in-out;
-        z-index: 51;
-        width: 150px;
-        height: 300px;
-        border-radius: 30px;
+    
+    .logo {
+        margin-left: 20px;
     }
 }
